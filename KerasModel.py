@@ -108,7 +108,7 @@ def get_model():
         
         tf.keras.layers.Dropout(0.5),
 
-        # Add an output layer with output units for all 43 categories
+        # Add an output layer with output units for all 10 categories
         tf.keras.layers.Dense(NUM_CATEGORIES, activation="softmax")
     ])
 
